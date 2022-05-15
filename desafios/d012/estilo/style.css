@@ -57,6 +57,22 @@ section{
     font-size: 5vw;
 }
 
+#img01{
+    background-image: url('../imagens/joaninha.jpg');
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+#img02{
+    background-image: url('../imagens/livros-biblioteca.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
 section.normal{
     background-color: white;
     color: black;
@@ -65,12 +81,17 @@ section.normal{
 section.imagem{
     background-color: rgb(51, 50, 50);
     color: white;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.441);
+    background-size: cover;
+
 }
 
 section.imagem > p{
-    display: inline-block; /**/
+    display: inline-block; /*forma uma caixa que se adapta ao texto*/
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.263);
+    text-shadow: 1px 1px 0px black;
 }
 
 
